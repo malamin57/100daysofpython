@@ -1,16 +1,12 @@
-from prettytable import PrettyTable
-table = PrettyTable()
+import turtle 
 
-table.add_column("Pokemon Name", ["Pickachu", "Squirtle", "Ch"])
-table.add_column("Type",["eletiric","water", "Fire"])
-table.align = "l"
+rgb_colors = []
+colors = colorgram.extract('spongebob.jpeg', 30)
+for color in colors:
+    r = colors.rbg.r
+    g = colors.rbg.g 
+    b = colors.rgb.b
+    new_color = (r,g,b)
+    rgb_colors.append(new_color)
 
-
-print(table) 
-
-class user:
-    pass
-
-user1 = User()
-user_1.id = "001"
-user_1.username = "angela"
+print(rgb_colors)
